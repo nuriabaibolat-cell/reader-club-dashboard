@@ -668,7 +668,7 @@ export default function App() {
                     <div className="space-y-4">
                       <div className="h-[400px] bg-brand-navy/5 rounded-2xl overflow-hidden border border-brand-navy/10 relative group">
                         <img 
-                          src="https://ais-pre-7jdyphqtafvn45f3onvccy-224759101651.asia-southeast1.run.app/api/artifacts/kemel_talks_teachers" 
+                          src="https://drive.google.com/file/d/1GPORqVA2WDAu6ZpWX4zDLuI3y3JQeTZ-/view?usp=sharing" 
                           alt="Kemel Talks Teachers"
                           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                           onError={(e) => {
