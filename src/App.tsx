@@ -668,11 +668,11 @@ export default function App() {
                     <div className="space-y-4">
                       <div className="h-[400px] bg-brand-navy/5 rounded-2xl overflow-hidden border border-brand-navy/10 relative group">
                         <img 
-                          src="https://drive.google.com/file/d/1GPORqVA2WDAu6ZpWX4zDLuI3y3JQeTZ-/view?usp=sharing" 
+                          src="Kemel.jpeg" 
                           alt="Kemel Talks Teachers"
                           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                           onError={(e) => {
-                            (e.target as HTMLImageElement).src = "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&q=80&w=800";
+                            (e.target as HTMLImageElement).src = "Kemel.jpeg";
                           }}
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-brand-navy/80 to-transparent flex items-end p-6 opacity-0 group-hover:opacity-100 transition-opacity">
