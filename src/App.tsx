@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
+import kemelPhoto from './Kemel.jpeg';
 import { 
   BookOpen, 
   Users, 
@@ -668,7 +669,7 @@ export default function App() {
                     <div className="space-y-4">
                       <div className="h-[400px] bg-brand-navy/5 rounded-2xl overflow-hidden border border-brand-navy/10 relative group">
                         <img 
-                          src=""/Kemel.jpeg"
+                          src={kemelPhoto}
                           alt="Kemel Talks Teachers"
                           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                           onError={(e) => {
