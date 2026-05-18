@@ -284,7 +284,7 @@ const StudentDashboard = ({ setMessages }: { setMessages: any }) => {
                 label: "Golden Reader",
                 school: "№69 мектеп гимназиясы",
                 grade: "5е",
-                photo: "https://drive.google.com/drive/u/6/my-drive" // Image of a happy student with a trophy/award
+                photo: "drive.google.com/drive/u/6/my-drive" // Image of a happy student with a trophy/award
               },
               { rank: 2, name: "Елдос Дастан", points: 4100, label: "Active Mind" },
               { rank: 3, name: "Санжар Б.", points: 3800, label: "Explorer" },
