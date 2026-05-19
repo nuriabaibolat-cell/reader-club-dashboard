@@ -244,7 +244,7 @@ const StudentDashboard = ({ setMessages }: { setMessages: any }) => {
           <div className="flex gap-6 overflow-x-auto pb-4">
             {[
               { title: "Көшпенділер", author: "Ілияс Есенберлин", coins: 500, img: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&q=80&w=200", status: "Оқылуда" },
-              { title: "Абай жолы", author: "Мұхтар Әуезов", coins: 750, img: "https://images.unsplash.com/photo-1512820790803-73c772ff376f?auto=format&fit=crop&q=80&w=200", status: "Аяқталды" },
+              { title: "Мәдени майдан", author: "Санжар Керімбай", coins: 750, img: "https://simg.marwin.kz/media/catalog/product/cache/41deb699a7fea062a8915debbbb0442c/4/6/zbekl_jne_mdeni_maydan.jpg", status: "Аяқталды" },
               { title: "Қара сөздер", author: "Абай Құнанбайұлы", coins: 300, img: "https://images.unsplash.com/photo-1589998059171-988d887df646?auto=format&fit=crop&q=80&w=200", status: "Жоспарда" },
             ].map((book, i) => (
               <div key={i} className="min-w-[160px] group cursor-pointer">
